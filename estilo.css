@@ -1,0 +1,102 @@
+/* CSS Document */
+body{
+		font-family: 'CaviarDreams';
+	}
+
+	@font-face {
+	font-family: 'CaviarDreams';
+	src: url('fonts/CaviarDreams.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+	}
+
+#login {
+	background-image: linear-gradient(to bottom right, rgba(125, 150, 50, .6), rgba(234, 46, 212, .7)), url(../img/spa12.jpeg);
+	background-position: center, center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+#login-main {
+	padding: 30px;
+} 
+
+#login-logo {
+	width: 80px;
+	height: 80px;
+	display: block;
+	margin: auto;
+	padding-bottom: 30px;
+}
+
+#login-form {
+	height: 300px;
+	background-color: rgb(255, 255, 255);
+	border-radius: 25px;
+}
+
+#login-form>div {
+
+  text-align: center;
+}
+
+#login-form>div h1 {
+	color: #addd12;
+	text-shadow: transparent;
+	font-size: 1.4em;
+}
+
+.input i {
+	color: #FFF;
+	text-shadow: 0 0 0 #000, 0 0 0 #000, 0 0 0 #000;
+}
+
+.input input{	
+	
+	background: rgba(0, 0, 0, 0);
+	width: 100%;
+	height: 40px;
+	border-left: none; 
+	border-right: none; 
+	border-top: none;
+	border-bottom: 1px solid green;
+	color: #000;
+	text-indent: 35px;
+	outline: none;
+	font-size: 1.1em;
+}
+
+#login-form div:nth-child(2) {	
+	background-image: url(../img/user.png);
+}
+
+#login-form div:nth-child(3) {	
+	background-image: url(../img/pass.png);
+}
+
+#login-form div:nth-child(2),
+#login-form div:nth-child(3) 
+{
+	padding-top: 30px;
+	padding-left: 20px;
+	padding-right: 20px;
+	background-position: 30px 42px;
+	background-repeat: no-repeat;
+	background-size: 15px 15px;
+}
+
+#login-form div:nth-child(4) {
+	padding-top: 30px;
+	padding-left: 20px;
+	padding-right: 20px;	
+} 
+
+.button input{
+	background-image: linear-gradient(to bottom right, rgba(125, 150, 50, 1), rgba(234, 46, 212, 1));
+	color: #fff;
+	width: 100%;
+	height: 50px;
+	border: none;
+	border-radius: 25px;
+	padding: 20px;
+}
